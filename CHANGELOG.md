@@ -1,6 +1,26 @@
 # Change Log
 
 <a name="unreleased"></a>
+## [0.12.0](https://www.github.com/boson-project/func/compare/v0.11.0...v0.12.0) (2021-03-16)
+
+
+### Features
+
+* add --build (default: true) flag to func deploy ([8a91cac](https://www.github.com/boson-project/func/commit/8a91cac6cc78b5cf56d5158f3eb03a4076a34ffe))
+* basic lifecycle integraiton tests ([8edd0df](https://www.github.com/boson-project/func/commit/8edd0df836055b33473f9a7774e8ae755f46ac2e))
+* integration tests target ([ddf4ab8](https://www.github.com/boson-project/func/commit/ddf4ab86c46912f78e56a52a14efcf89fd187103))
+* local cluster allocation, configuration and teardown ([9c499b6](https://www.github.com/boson-project/func/commit/9c499b69c4991b86e51127081cee7fb0fc34d554))
+* using custom docker daemon (e.g podman) ([6d2d8c6](https://www.github.com/boson-project/func/commit/6d2d8c63b01e12f6cf277c2cd18c3f7298ce86ab))
+
+
+### Bug Fixes
+
+* `func run` now uses Docker API, not binary ([db0945e](https://www.github.com/boson-project/func/commit/db0945ed3ecb9e6e4283a0cb478d39657c6803dc))
+* compare service names in integraiton tests ([1551d69](https://www.github.com/boson-project/func/commit/1551d69b5d287becaafdf3d5b99a6ba8da926fa6))
+* increase remove timeout to 120s ([80e366b](https://www.github.com/boson-project/func/commit/80e366b14234c184932d91db4188bdabb0742e7a))
+* sprint-boot template ([38fd673](https://www.github.com/boson-project/func/commit/38fd673fdbef1094558b32910a42fcdff2d8bb0c))
+* update pack dependency ([c3c2165](https://www.github.com/boson-project/func/commit/c3c21657b2bc3cba9e4ba87864d8fe0c5d4e43af))
+
 ## [0.11.0](https://www.github.com/boson-project/func/compare/v0.10.0...v0.11.0) (2021-01-21)
 
 
